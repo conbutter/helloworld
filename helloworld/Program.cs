@@ -17,11 +17,13 @@ class Program
             string user_input = Console.ReadLine();
             if ( user_input == "1" )
             {
-                Console.WriteLine(hello_world + "\n");
+                Console.WriteLine($"\n{hello_world}\n");
             }
             else if ( user_input == "2" )
             {
-                // Functionality here
+                Console.Write("Please type the new message: ");
+                hello_world = Console.ReadLine();
+                Console.WriteLine("Message updated to '" + hello_world + "'\n");
             }
             else if ( user_input == "3" )
             {
@@ -37,6 +39,6 @@ class Program
 
     static void DisplayMenu()
     {
-        Console.WriteLine("MAIN MENU\n1 - Print text\n2 - Customize text\n3 - Exit program");
+        Console.WriteLine("MAIN MENU\n1 - Print message\n2 - Update message\n3 - Exit program");
     }
 }
