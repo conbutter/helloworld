@@ -7,12 +7,15 @@ class Program
 
     static void Main(string[] args)
     {   
+        Console.Clear();
         Console.WriteLine(hello_world + "\n");
         DisplayMenu();
 
         while ( program_active )
-        {
+        {   
+            Console.Write("Selection: ");
             string user_input = Console.ReadLine();
+            user_input = String.Trim(user_input);
             if ( user_input == "1" )
             {
                 Console.WriteLine(hello_world + "\n");
@@ -23,6 +26,7 @@ class Program
             }
             else if ( user_input == "3" )
             {
+                Console.WriteLine("Thank you for using Hello World Outline!");
                 program_active = false;
             }
             else
@@ -34,6 +38,6 @@ class Program
 
     static void DisplayMenu()
     {
-        Console.WriteLine("MAIN MENU\n1 - Print text\n2 - Customize text\n3 - Exit program\n\nSelection: ");
+        Console.WriteLine("MAIN MENU\n1 - Print text\n2 - Customize text\n3 - Exit program");
     }
 }

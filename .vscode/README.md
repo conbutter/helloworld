@@ -1,10 +1,10 @@
 ## Overview
 
-**Project Title**: Hello World Plus
+**Project Title**: Hello World
 
-**Project Description**: A generator that creates 
+**Project Description**: A simple program that holds a string and repeats it upon command. Meant to act as a helpful baseline for a program menu structure that can be easily used as a template going forward.
 
-**Project Goals**:
+**Project Goals**: To create an easily-reusable template for C# console applications that can be adapted for other programs going forward.
 
 ## Instructions for Build and Use
 
