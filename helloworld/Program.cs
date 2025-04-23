@@ -15,7 +15,6 @@ class Program
         {   
             Console.Write("Selection: ");
             string user_input = Console.ReadLine();
-            user_input = String.Trim(user_input);
             if ( user_input == "1" )
             {
                 Console.WriteLine(hello_world + "\n");
