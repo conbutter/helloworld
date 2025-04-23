@@ -2,12 +2,12 @@
 
 class Program
 {
-    private static string hello_world = "Hello, World!";
+    private static string hello_world = "Hello World!";
     private static bool program_active = true;
 
     static void Main(string[] args)
     {   
-        Console.Clear();
+        // Console.Clear();
         Console.WriteLine(hello_world + "\n");
         DisplayMenu();
 
@@ -27,7 +27,7 @@ class Program
             }
             else if ( user_input == "3" )
             {
-                Console.WriteLine("Thank you for using Hello World Outline!");
+                Console.WriteLine("Thank you for using Hello World Outline!\n");
                 program_active = false;
             }
             else

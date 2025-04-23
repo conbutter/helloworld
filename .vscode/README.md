@@ -1,6 +1,6 @@
 ## Overview
 
-**Project Title**: Hello World
+**Project Title**: Hello World Outline
 
 **Project Description**: A simple program that holds a string and repeats it upon command. Meant to act as a helpful baseline for a program menu structure that can be easily used as a template going forward.
 
@@ -10,8 +10,8 @@
 
 Steps to build and/or run the software:
 
-1. First step here
-2. 
+1. Download the repository files
+2. Open in a compatible IDE (such as Visual Studio Code)
 3. 
 
 Instructions for using the software:
@@ -24,9 +24,11 @@ Instructions for using the software:
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-* First thing here
-* 
-* 
+* .NET 8 Framework
+* Visual Studio Code (Version 17 or newer)
+* C# - Visual Studio Code extension
+* C# Dev Kit - Visual Studio Code extension
+* .NET Install Tool - Visual Studio Code extension
 
 ## Useful Websites to Learn More
 
@@ -34,7 +36,6 @@ I found these websites useful in developing this software:
 
 * [Stack Overflow forums](https://stackoverflow.com/questions)
 * [Microaoft Learn forums](https://learn.microsoft.com/en-us/)
-* 
 
 ## Future Work
 
@@ -42,4 +43,4 @@ The following items I plan to fix, improve, and/or add to this project in the fu
 
 * [ ] Fix whitespace handling (added whitespace in user input causes verification errors)
 * [ ] Add settings file with data storage
-* [ ] 
+* [ ] Add colored text output
