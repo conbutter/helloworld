@@ -10,15 +10,16 @@
 
 Steps to build and/or run the software:
 
-1. Download the repository files
-2. Open in a compatible IDE (such as Visual Studio Code)
-3. 
+1. Download and install the .NET 8.0 SDK (if not already obtained)
+2. Download the repository files
+3. Open in a compatible IDE (such as Visual Studio Code)
+4. Run using the IDE's Play button
 
 Instructions for using the software:
 
-1. First step here
-2. 
-3. 
+1. Run the program using a terminal or similar command line interface
+2. Use the provided menu options to display the saved text (set to "Hello World!" as default) or update it with new text
+3. Quit the program by using "3" in the selection input
 
 ## Development Environment 
 
@@ -35,7 +36,7 @@ To recreate the development environment, you need the following software and/or 
 I found these websites useful in developing this software:
 
 * [Stack Overflow forums](https://stackoverflow.com/questions)
-* [Microaoft Learn forums](https://learn.microsoft.com/en-us/)
+* [Microsoft Learn forums](https://learn.microsoft.com/en-us/)
 
 ## Future Work
 
